@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OrderTotalView: View {
+struct TotalOrderView: View {
     let total: Double
 
     var body: some View {
@@ -24,6 +24,6 @@ struct OrderTotalView: View {
 
 struct OrderTotalView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTotalView(total: 45.55)
+        TotalOrderView(total: 45.55)
     }
 }

@@ -21,7 +21,7 @@
 		6325CD8D24FB5A1F0000C804 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8024FB5A1F0000C804 /* Coffee.swift */; };
 		6325CD8E24FB5A1F0000C804 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8224FB5A1F0000C804 /* OrderService.swift */; };
 		6325CD8F24FB5A1F0000C804 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8424FB5A1F0000C804 /* OrderListView.swift */; };
-		6325CD9024FB5A1F0000C804 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8524FB5A1F0000C804 /* OrderTotalView.swift */; };
+		6325CD9024FB5A1F0000C804 /* TotalOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8524FB5A1F0000C804 /* TotalOrderView.swift */; };
 		6325CD9124FB5A1F0000C804 /* AddingCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325CD8624FB5A1F0000C804 /* AddingCoffeeOrderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		6325CD8024FB5A1F0000C804 /* Coffee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		6325CD8224FB5A1F0000C804 /* OrderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
 		6325CD8424FB5A1F0000C804 /* OrderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
-		6325CD8524FB5A1F0000C804 /* OrderTotalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
+		6325CD8524FB5A1F0000C804 /* TotalOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalOrderView.swift; sourceTree = "<group>"; };
 		6325CD8624FB5A1F0000C804 /* AddingCoffeeOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingCoffeeOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				6325CD8424FB5A1F0000C804 /* OrderListView.swift */,
-				6325CD8524FB5A1F0000C804 /* OrderTotalView.swift */,
+				6325CD8524FB5A1F0000C804 /* TotalOrderView.swift */,
 				6325CD8624FB5A1F0000C804 /* AddingCoffeeOrderView.swift */,
 				6325CD6924FB5A020000C804 /* ContentView.swift */,
 			);
@@ -218,7 +218,7 @@
 				6325CD8E24FB5A1F0000C804 /* OrderService.swift in Sources */,
 				6325CD6824FB5A020000C804 /* SceneDelegate.swift in Sources */,
 				6325CD6A24FB5A020000C804 /* ContentView.swift in Sources */,
-				6325CD9024FB5A1F0000C804 /* OrderTotalView.swift in Sources */,
+				6325CD9024FB5A1F0000C804 /* TotalOrderView.swift in Sources */,
 				6325CD8B24FB5A1F0000C804 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

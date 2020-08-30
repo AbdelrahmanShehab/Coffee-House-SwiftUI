@@ -27,7 +27,7 @@ struct AddingCoffeeOrderView: View {
                     }
                 }
 
-                Section(header: Text("SELECT COFFEE SIZE"), footer: OrderTotalView(total: self.addingCoffeOrderVM.total)) {
+                Section(header: Text("SELECT COFFEE SIZE"), footer: TotalOrderView(total: self.addingCoffeOrderVM.total)) {
 
                     Picker("", selection: self.$addingCoffeOrderVM.size) {
                         Text("Small").tag("Small")
